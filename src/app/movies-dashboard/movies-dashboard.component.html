@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="table-container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Movie Name</th>
+          <th scope="col">Rating</th>
+          <th>
+            <button
+              (click)="onRandomRating()"
+              type="button"
+              class="btn btn-primary"
+            >
+              RANDOM RATING
+            </button>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let movie of movies">
+          <td>{{ movie.movieName }}</td>
+          <td>
+            <ngb-rating
+              [(rate)]="movie.movieRating"
+              (rateChange)="onRateChange($event, movie)"
+            ></ngb-rating>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
