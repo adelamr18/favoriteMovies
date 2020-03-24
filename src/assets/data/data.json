@@ -1,0 +1,52 @@
+[
+  {
+    "movieName": "Saw 1",
+    "movieId": 1,
+    "movieRating": 0
+  },
+  {
+    "movieName": "The Mask",
+    "movieId": 2,
+    "movieRating": 0
+  },
+  {
+    "movieName": "Trapped",
+    "movieId": 3,
+    "movieRating": 0
+  },
+  {
+    "movieName": "Daredevil",
+    "movieId": 4,
+    "movieRating": 0
+  },
+  {
+    "movieName": "Spiderman",
+    "movieId": 5,
+    "movieRating": 0
+  },
+  {
+    "movieName": "Batman begines",
+    "movieId": 6,
+    "movieRating": 0
+  },
+  {
+    "movieName": "The Joker",
+    "movieId": 7,
+    "movieRating": 0
+  },
+  {
+    "movieName": "Harry Potter",
+    "movieId": 8,
+    "movieRating": 0
+  },
+  {
+    "movieName": "Cyborg",
+    "movieId": 9,
+    "movieRating": 0
+  },
+  {
+    "movieName": "Doctor Strange",
+    "movieId": 10,
+    "movieRating": 0
+  }
+]
